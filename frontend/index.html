@@ -1,0 +1,23 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Arquivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Envio de Arquivo</h1>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" name="file" accept=".txt,.csv,.json,.xml">
+            <button type="submit">Upload</button>
+        </form>
+
+        <div id="response" class="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
